@@ -1,4 +1,4 @@
-"use strict" // treat all JS cose as newer version 
+//"use strict" // treat all JS cose as newer version 
 
 // alert(2+2) We are using node js not browser 
 
@@ -21,5 +21,17 @@ undefined
 symbol
 */
 
-console.log(typeof age);
+// console.log(typeof age);
+
+// let score=33
+// console.log(typeof(score));
+
+
+
+
+
+
+
+
+
 
