@@ -34,12 +34,24 @@ const obj5 = {...obj1,...obj2,...obj3}
 // console.log(obj5)
 
 
-console.log(tinder)
-console.log(Object.keys(tinder))
-console.log(Object.values(tinder))
-console.log(Object.entries(tinder))
+// console.log(tinder)
+// console.log(Object.keys(tinder))
+// console.log(Object.values(tinder))
+// console.log(Object.entries(tinder))
 
-console.log(tinder.hasOwnProperty('isLoggedIn'))
+// console.log(tinder.hasOwnProperty('isLoggedIn'))
+
+const course= {
+    name:"Ishaan",
+    age:22,
+    courseInstructor:"Hitesh"
+
+}
+// console.log(course.courseInstructor)
+const {courseInstructor:Instructur} = course
+
+console.log(Instructur)
+
 
 
 
